@@ -1,0 +1,37 @@
+{% load static %}
+
+<div class="container my-5 text-center">
+    <h1 class="h3 mb-3">Top Doctors to Book</h1> 
+    <p class="text-muted mb-4 mx-auto" style="max-width: 33%;">Simply browse through our extensive list of trusted doctors.</p>
+
+    <div class="row g-4">
+        {% for doctor in doctors %}
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card border-primary h-100 shadow-sm circle">
+                    {% if doctor.image %}
+                        <img src="{{ doctor.image.url }}" class="card-img-top bg-light" alt="{{ doctor.name }}">
+                    {% else %}
+                        <img src="{% static 'image/doc2.png' %}" class="card-img-top bg-light" alt="Default Doctor">
+                    {% endif %}
+                    
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-2 text-success">
+                            <span class="badge bg-success me-2 rounded-pill">&nbsp;</span>
+                            <small>Available</small>
+                        </div>
+                        <h5 class="card-title">{{ doctor.name }}</h5>
+                        <p class="card-text text-muted">{{ doctor.speciality.name }}</p>
+                    </div>
+                </div>
+            </div>
+        {% empty %}
+            <p class="text-muted">No doctors available.</p>
+        {% endfor %}
+    </div>
+
+    <!-- Use <a> instead of onclick for better navigation -->
+    <a href="{% url 'doctors-list' %}" 
+       class="btn btn-outline-primary rounded-pill mt-4 px-4 py-2">
+        More
+    </a>
+</div>

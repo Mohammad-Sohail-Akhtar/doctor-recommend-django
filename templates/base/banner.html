@@ -1,0 +1,18 @@
+{% load static %}
+<div class="d-flex bg-primary rounded px-4 px-sm-5 px-md-5 px-lg-4 my-5 mx-md-3">
+  <!-- Left side -->
+  <div class="flex-grow-1 py-4 py-sm-5 py-md-5 py-lg-5 ps-lg-3">
+    <div class="text-white fw-semibold">
+      <p class="h4 h-sm5 h-md3 h-lg1">Book Appointment</p>
+      <p class="mt-3 h6 h-md5">With 100+ Trusted Doctors</p>
+    </div>
+    <button onclick="location.href='/login'; window.scrollTo(0,0);" class="btn btn-light text-secondary px-4 py-2 rounded-pill mt-3">
+      Create Account
+    </button>
+  </div> 
+
+  <!-- Right side -->
+  <div class="d-none d-md-block position-relative w-50 w-lg-auto" style="max-width: 370px;">
+    <img src="{% static 'image/appointment_img.png' %}" alt="Appointment" class="w-100 position-absolute bottom-0 end-0" />
+  </div>
+</div>

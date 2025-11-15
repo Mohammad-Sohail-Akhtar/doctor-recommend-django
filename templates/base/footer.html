@@ -1,0 +1,44 @@
+{% load static %}
+
+<div class="container my-5">
+
+  <!-- Top Footer Section -->
+  <div class="row gy-4 mt-5">
+
+    <!-- Left Section -->
+    <div class="col-12 col-md-6 col-lg-6">
+      <img src="{% static 'image/logo.svg' %}" alt="Logo" class="mb-3" style="width: 160px;">
+      <p class="text-muted small" style="line-height: 1.6;">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </p>
+    </div>
+
+    <!-- Center Section -->
+    <div class="col-6 col-md-3 col-lg-3">
+      <p class="h5 mb-3 fw-semibold">COMPANY</p>
+      <ul class="list-unstyled text-muted small">
+        <li><a href="{% url 'home' %}" class="text-decoration-none text-muted">Home</a></li>
+        <li><a href="{% url 'about' %}" class="text-decoration-none text-muted">About Us</a></li>
+        <li><a href="{% url 'contact' %}" class="text-decoration-none text-muted">Contact Us</a></li>
+        <li><a href="#" class="text-decoration-none text-muted">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <!-- Right Section -->
+    <div class="col-6 col-md-3 col-lg-3">
+      <p class="h5 mb-3 fw-semibold">GET IN TOUCH</p>
+      <ul class="list-unstyled text-muted small">
+        <li>+977-9845744411</li>
+        <li>prescripto@gmail.com</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Bottom Footer Section -->
+  <hr class="mt-4">
+  <p class="text-center text-muted small py-3 mb-0">
+    Copyright © 2024 Prescripto - All Rights Reserved.
+  </p>
+</div>

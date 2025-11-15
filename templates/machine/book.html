@@ -1,0 +1,45 @@
+{% extends "base/base.html" %}
+{% load static %}
+
+{% block title %}Book Appointment{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+  <div class="card shadow-lg p-4 rounded">
+    <h2 class="text-center text-primary mb-4">Book Appointment</h2>
+
+    <!-- Step 1: Enter Symptoms -->
+    <form method="POST" class="mb-4">
+      {% csrf_token %}
+
+      <p class="fw-bold">Booking For: <span class="text-success">{{ request.user.username }}</span></p>
+
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label class="form-label">Symptom 1</label>
+          <input type="text" name="symptom1" class="form-control" placeholder="Enter symptom 1">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Symptom 2</label>
+          <input type="text" name="symptom2" class="form-control" placeholder="Enter symptom 2">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Symptom 3</label>
+          <input type="text" name="symptom3" class="form-control" placeholder="Enter symptom 3">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Symptom 4</label>
+          <input type="text" name="symptom4" class="form-control" placeholder="Enter symptom 4">
+        </div>
+      </div>
+
+      <div class="text-center mt-4">
+        <button type="submit" class="btn btn-primary px-4">Get Doctor Recommendation</button>
+      </div>
+    </form>
+
+
+ 
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,78 @@
+{% extends "base/base.html" %}
+{% load static %}
+
+{% block title %}Book Appointment{% endblock %}
+
+{% block content %}
+
+
+
+<div class="container py-5">
+
+    <div class="text-center mb-4">
+        <h2 class="fw-bold text-primary">Recommended Doctors</h2>
+        <!-- <p class="text-muted">Based on your symptoms, we recommend specialists in <strong>{{ speciality }}</strong></p> -->
+    </div>
+
+    <form method="POST" action="{% url 'confirm_appointment' %}" class="card shadow-lg p-4 rounded-4">
+        {% csrf_token %}
+
+        <!-- Doctor selection -->
+        <div class="mb-3">
+            <label for="doctor" class="form-label fw-semibold">Choose a Doctor</label>
+            <select name="doctor_id" id="doctor" class="form-select" required>
+                {% for doctor in doctors %}
+                    <option value="{{ doctor.id }}">
+                        {{ doctor.name }} ({{ doctor.speciality.name }})
+                    </option>
+                {% empty %}
+                    <option disabled>No doctors available for this speciality</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <!-- Date -->
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="date" class="form-label fw-semibold">Select Date</label>
+                <input type="date" name="appointment_date" id="date" class="form-control" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="time" class="form-label fw-semibold">Select Time</label>
+                <input type="time" name="appointment_time" id="time" class="form-control" required>
+            </div>
+        </div>
+
+        <!-- Address -->
+        <div class="mb-3">
+            <label for="address" class="form-label fw-semibold">Address</label>
+            <textarea name="address" id="address" class="form-control" rows="2" placeholder="Enter your address" required></textarea>
+        </div>
+
+        <!-- Number & Gender -->
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="number" class="form-label fw-semibold">Phone Number</label>
+                <input type="text" name="number" id="number" class="form-control" placeholder="Enter phone number" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="gender" class="form-label fw-semibold">Gender</label>
+                <select name="gender" id="gender" class="form-select" required>
+                    <option value="">Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Confirm button -->
+        <div class="text-center mt-4">
+            <button type="submit" class="btn btn-primary btn-lg px-5 rounded-pill shadow-sm">
+                Confirm Appointment
+            </button>
+        </div>
+    </form>
+</div>
+{% endblock %}

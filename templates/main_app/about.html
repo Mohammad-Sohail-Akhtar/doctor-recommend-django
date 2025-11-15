@@ -1,0 +1,90 @@
+{% extends "base/base.html" %}
+{% load static %}
+
+{% block title %}About{% endblock %}
+
+{% block content %}
+
+<div class="container my-5">
+
+  <!-- ABOUT US Title -->
+  <div class="text-center mb-5">
+    <h2 class="text-secondary">ABOUT <span class="text-dark fw-semibold">US</span></h2>
+  </div>
+
+  <!-- ABOUT US Content -->
+  <div class="row align-items-center gy-4 mb-5">
+    <!-- Left Image -->
+    <div class="col-md-5 text-center">
+      <img src="{% static 'image/about_image.png' %}" alt="About Us" class="img-fluid rounded shadow-sm about">
+    </div>
+
+    <!-- Right Content -->
+    <div class="col-md-7 text-muted small">
+      <p>
+        Welcome to <b>Prescripto</b>, your trusted partner in managing your healthcare needs conveniently and efficiently. 
+        At Prescripto, we understand the challenges individuals face when it comes to scheduling doctor appointments 
+        and managing their health records.
+      </p>
+      <p>
+        Prescripto is committed to excellence in healthcare technology. We continuously strive to enhance our platform, 
+        integrating the latest advancements to improve user experience and deliver superior service. Whether you're 
+        booking your first appointment or managing ongoing care, Prescripto is here to support you every step of the way.
+      </p>
+      <h5 class="fw-semibold text-dark mt-3">Our Vision</h5>
+      <p>
+        Our vision at Prescripto is to create a seamless healthcare experience for every user. 
+        We aim to bridge the gap between patients and healthcare providers, making it easier for you to access 
+        the care you need, when you need it.
+      </p>
+    </div>
+  </div>
+
+  <!-- WHY CHOOSE US -->
+  <div class="text-center mb-4">
+    <h4>WHY <span class="text-dark fw-semibold">CHOOSE US</span></h4>
+  </div>
+
+  <div class="row text-muted mb-5 g-4">
+    <div class="col-md-4">
+      <div class="border rounded p-4 h-100 text-center shadow-sm hover-effect">
+        <h6 class="fw-bold">Efficiency</h6>
+        <p class="small">Streamlined appointment scheduling that fits into your busy lifestyle.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="border rounded p-4 h-100 text-center shadow-sm hover-effect">
+        <h6 class="fw-bold">Convenience</h6>
+        <p class="small">Access to a network of trusted healthcare professionals in your area.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="border rounded p-4 h-100 text-center shadow-sm hover-effect">
+        <h6 class="fw-bold">Personalization</h6>
+        <p class="small">Tailored recommendations and reminders to help you stay on top of your health.</p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
+<!-- Optional Custom Hover Effect -->
+<style>
+  .about{
+    height: 350px;
+  }
+   .hover-effect {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .hover-effect:hover {
+    background: var(--bs-primary);
+    color: #fff !important;
+  }
+</style>
+
+{% endblock %}
+
+
+

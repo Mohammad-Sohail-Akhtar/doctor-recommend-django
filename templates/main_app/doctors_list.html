@@ -1,0 +1,46 @@
+{% extends "base/base.html" %}
+{% load static %}
+
+{% block title %}Doctors List{% endblock %}
+
+{% block content %}
+<div class="container my-5">
+    <h2 class="mb-4 text-center">All Doctors</h2>
+
+    <table class="table table-bordered table-striped text-center align-middle shadow-sm">
+        <thead class="table-primary">
+            <tr>
+                <th>Profile</th>
+                <th>Doctor Name</th>
+                <th>Speciality</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for doctor in doctors %}
+            <tr>
+                <td>
+                    {% if doctor.image %}
+                        <img src="{{ doctor.image.url }}" class="rounded-circle" width="50" height="50">
+                    {% else %}
+                        <img src="{% static 'image/doc2.png' %}" class="rounded-circle" width="50" height="50">
+                    {% endif %}
+                </td>
+                <td>{{ doctor.name }}</td>
+                <td>{{ doctor.speciality.name }}</td> 
+                <td>
+                    <span class="badge {% if doctor.is_available %}bg-success{% else %}bg-danger{% endif %}">
+                        {% if doctor.is_available %}Available{% else %}Unavailable{% endif %}
+                    </span>
+                </td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="4" class="text-muted">No doctors available.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}

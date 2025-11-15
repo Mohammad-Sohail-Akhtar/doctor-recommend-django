@@ -1,0 +1,35 @@
+{% extends "base/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-5">
+  <h2 class="mb-4 text-center">📅 My Appointments</h2>
+
+  {% if appointments %}
+    <div class="list-group">
+      {% for appt in appointments %}
+        <div class="list-group-item shadow-sm mb-3 rounded p-3">
+          <h5 class="mb-1">{{ appt.doctor.name }} ({{ appt.doctor.speciality.name }})</h5>
+          <p class="mb-1">📅 {{ appt.appointment_date }} at {{ appt.appointment_time }}</p>
+          <p class="mb-1">📍 Address: {{ appt.address }}</p>
+          <p class="mb-1">📞 Phone: {{ appt.number }} | 👤 Gender: {{ appt.gender }}</p>
+
+          <div class="d-flex gap-2 mt-2">
+            <!-- Edit button -->
+            <a href="{% url 'edit_appointment' appt.id %}" class="btn btn-warning btn-sm">✏️ Edit</a>
+
+            <!-- Delete Form -->
+            <form method="POST" action="{% url 'delete_appointment' appt.id %}" 
+                  onsubmit="return confirm('Are you sure you want to delete this appointment?');">
+              {% csrf_token %}
+              <button type="submit" class="btn btn-danger btn-sm">❌ Delete</button>
+            </form>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="text-center text-muted">No appointments booked yet.</p>
+  {% endif %}
+</div>
+{% endblock %}

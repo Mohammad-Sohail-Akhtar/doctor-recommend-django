@@ -1,0 +1,246 @@
+Symptom1,Symptom2,Symptom3,Symptom4,Doctor
+Mild fever,Chills,Weakness,Loss of appetite,General Physician
+Mild fever,Weakness,Loss of appetite,Chills,General Physician
+Runny nose,Sneezing,Sore throat,Body ache,General Physician
+Cough,Fatigue,Fever,Headache,General Physician
+Sore throat,Runny nose,Body ache,Sneezing,General Physician
+Mild fever,Loss of appetite,Weakness,Chills,General Physician
+Cough,Headache,Fever,Fatigue,General Physician
+Fatigue,Fever,Cough,Headache,General Physician
+Runny nose,Sneezing,Body ache,Sore throat,General Physician
+Sneezing,Runny nose,Body ache,Sore throat,General Physician
+Weakness,Loss of appetite,Mild fever,Chills,General Physician
+Headache,Fatigue,Fever,Cough,General Physician
+Mild fever,Weakness,Chills,Loss of appetite,General Physician
+Sore throat,Runny nose,Body ache,Sneezing,General Physician
+Sore throat,Sneezing,Runny nose,Body ache,General Physician
+Fever,Cough,Fatigue,Headache,General Physician
+Weakness,Chills,Mild fever,Loss of appetite,General Physician
+Sneezing,Runny nose,Sore throat,Body ache,General Physician
+Fever,Cough,Fatigue,Headache,General Physician
+Sneezing,Body ache,Runny nose,Sore throat,General Physician
+Body ache,Sneezing,Sore throat,Runny nose,General Physician
+Sore throat,Sneezing,Body ache,Runny nose,General Physician
+Cough,Headache,Fever,Fatigue,General Physician
+Runny nose,Sneezing,Body ache,Sore throat,General Physician
+Sore throat,Runny nose,Body ache,Sneezing,General Physician
+Runny nose,Sore throat,Sneezing,Body ache,General Physician
+Chills,Weakness,Mild fever,Loss of appetite,General Physician
+Cough,Fever,Headache,Fatigue,General Physician
+Runny nose,Body ache,Sneezing,Sore throat,General Physician
+Weakness,Chills,Loss of appetite,Mild fever,General Physician
+Sore throat,Body ache,Sneezing,Runny nose,General Physician
+Weakness,Mild fever,Chills,Loss of appetite,General Physician
+Loss of appetite,Mild fever,Chills,Weakness,General Physician
+Sneezing,Runny nose,Sore throat,Body ache,General Physician
+Mild fever,Loss of appetite,Weakness,Chills,General Physician
+Shortness of breath,Palpitations,Chest pain,Dizziness,Cardiologist
+Dizziness,Shortness of breath,Palpitations,Chest pain,Cardiologist
+Fatigue,Chest tightness,High blood pressure,Swelling in legs,Cardiologist
+Fainting,Chest discomfort,Shortness of breath,Irregular heartbeat,Cardiologist
+High blood pressure,Fatigue,Chest tightness,Swelling in legs,Cardiologist
+Shortness of breath,Irregular heartbeat,Chest discomfort,Fainting,Cardiologist
+High blood pressure,Swelling in legs,Chest tightness,Fatigue,Cardiologist
+Shortness of breath,Chest discomfort,Irregular heartbeat,Fainting,Cardiologist
+Irregular heartbeat,Shortness of breath,Fainting,Chest discomfort,Cardiologist
+Shortness of breath,Fainting,Chest discomfort,Irregular heartbeat,Cardiologist
+Fatigue,Swelling in legs,Chest tightness,High blood pressure,Cardiologist
+Chest discomfort,Fainting,Irregular heartbeat,Shortness of breath,Cardiologist
+Fainting,Shortness of breath,Irregular heartbeat,Chest discomfort,Cardiologist
+Irregular heartbeat,Chest discomfort,Fainting,Shortness of breath,Cardiologist
+Fatigue,Swelling in legs,High blood pressure,Chest tightness,Cardiologist
+Fatigue,Swelling in legs,Chest tightness,High blood pressure,Cardiologist
+Fainting,Chest discomfort,Shortness of breath,Irregular heartbeat,Cardiologist
+Irregular heartbeat,Fainting,Chest discomfort,Shortness of breath,Cardiologist
+Shortness of breath,Palpitations,Dizziness,Chest pain,Cardiologist
+Swelling in legs,Fatigue,Chest tightness,High blood pressure,Cardiologist
+Shortness of breath,Chest pain,Dizziness,Palpitations,Cardiologist
+Fatigue,High blood pressure,Chest tightness,Swelling in legs,Cardiologist
+Fainting,Shortness of breath,Chest discomfort,Irregular heartbeat,Cardiologist
+Irregular heartbeat,Fainting,Chest discomfort,Shortness of breath,Cardiologist
+Swelling in legs,Chest tightness,High blood pressure,Fatigue,Cardiologist
+Chest pain,Palpitations,Dizziness,Shortness of breath,Cardiologist
+Chest discomfort,Shortness of breath,Irregular heartbeat,Fainting,Cardiologist
+Shortness of breath,Irregular heartbeat,Fainting,Chest discomfort,Cardiologist
+Chest tightness,Swelling in legs,High blood pressure,Fatigue,Cardiologist
+Swelling in legs,Chest tightness,Fatigue,High blood pressure,Cardiologist
+Shortness of breath,Palpitations,Dizziness,Chest pain,Cardiologist
+Irregular heartbeat,Shortness of breath,Fainting,Chest discomfort,Cardiologist
+Chest tightness,Swelling in legs,Fatigue,High blood pressure,Cardiologist
+Shortness of breath,Fainting,Irregular heartbeat,Chest discomfort,Cardiologist
+Swelling in legs,High blood pressure,Fatigue,Chest tightness,Cardiologist
+Acne,Oily skin,Pimples,Blackheads,Dermatologist
+Peeling skin,Inflammation,Redness,Eczema,Dermatologist
+Oily skin,Pimples,Blackheads,Acne,Dermatologist
+Peeling skin,Redness,Eczema,Inflammation,Dermatologist
+Blackheads,Pimples,Acne,Oily skin,Dermatologist
+Dry skin,Red spots,Skin rash,Itching,Dermatologist
+Acne,Blackheads,Pimples,Oily skin,Dermatologist
+Inflammation,Peeling skin,Redness,Eczema,Dermatologist
+Acne,Blackheads,Pimples,Oily skin,Dermatologist
+Pimples,Blackheads,Oily skin,Acne,Dermatologist
+Peeling skin,Eczema,Inflammation,Redness,Dermatologist
+Redness,Eczema,Inflammation,Peeling skin,Dermatologist
+Skin rash,Red spots,Itching,Dry skin,Dermatologist
+Oily skin,Blackheads,Acne,Pimples,Dermatologist
+Oily skin,Blackheads,Acne,Pimples,Dermatologist
+Skin rash,Dry skin,Itching,Red spots,Dermatologist
+Itching,Dry skin,Red spots,Skin rash,Dermatologist
+Acne,Blackheads,Pimples,Oily skin,Dermatologist
+Red spots,Skin rash,Dry skin,Itching,Dermatologist
+Pimples,Acne,Oily skin,Blackheads,Dermatologist
+Inflammation,Peeling skin,Redness,Eczema,Dermatologist
+Inflammation,Eczema,Redness,Peeling skin,Dermatologist
+Skin rash,Red spots,Dry skin,Itching,Dermatologist
+Dry skin,Red spots,Itching,Skin rash,Dermatologist
+Blackheads,Pimples,Acne,Oily skin,Dermatologist
+Pimples,Oily skin,Blackheads,Acne,Dermatologist
+Skin rash,Itching,Dry skin,Red spots,Dermatologist
+Itching,Red spots,Dry skin,Skin rash,Dermatologist
+Oily skin,Blackheads,Acne,Pimples,Dermatologist
+Eczema,Redness,Peeling skin,Inflammation,Dermatologist
+Skin rash,Red spots,Itching,Dry skin,Dermatologist
+Redness,Eczema,Inflammation,Peeling skin,Dermatologist
+Inflammation,Peeling skin,Redness,Eczema,Dermatologist
+Red spots,Itching,Skin rash,Dry skin,Dermatologist
+Itching,Skin rash,Dry skin,Red spots,Dermatologist
+Dizziness,Vision problems,Severe headache,Numbness,Neurologist
+Confusion,Weakness in limbs,Seizures,Loss of consciousness,Neurologist
+Severe headache,Dizziness,Vision problems,Numbness,Neurologist
+Loss of consciousness,Seizures,Confusion,Weakness in limbs,Neurologist
+Loss of consciousness,Weakness in limbs,Confusion,Seizures,Neurologist
+Numbness,Vision problems,Severe headache,Dizziness,Neurologist
+Loss of consciousness,Seizures,Weakness in limbs,Confusion,Neurologist
+Dizziness,Numbness,Vision problems,Severe headache,Neurologist
+Confusion,Loss of consciousness,Weakness in limbs,Seizures,Neurologist
+Dizziness,Severe headache,Vision problems,Numbness,Neurologist
+Difficulty speaking,Tremors,Memory loss,Balance issues,Neurologist
+Severe headache,Numbness,Dizziness,Vision problems,Neurologist
+Numbness,Severe headache,Dizziness,Vision problems,Neurologist
+Vision problems,Severe headache,Dizziness,Numbness,Neurologist
+Dizziness,Numbness,Vision problems,Severe headache,Neurologist
+Severe headache,Numbness,Vision problems,Dizziness,Neurologist
+Severe headache,Numbness,Vision problems,Dizziness,Neurologist
+Loss of consciousness,Weakness in limbs,Confusion,Seizures,Neurologist
+Tremors,Memory loss,Balance issues,Difficulty speaking,Neurologist
+Balance issues,Difficulty speaking,Memory loss,Tremors,Neurologist
+Numbness,Dizziness,Vision problems,Severe headache,Neurologist
+Difficulty speaking,Tremors,Balance issues,Memory loss,Neurologist
+Numbness,Dizziness,Vision problems,Severe headache,Neurologist
+Numbness,Dizziness,Severe headache,Vision problems,Neurologist
+Tremors,Difficulty speaking,Balance issues,Memory loss,Neurologist
+Confusion,Loss of consciousness,Seizures,Weakness in limbs,Neurologist
+Seizures,Weakness in limbs,Loss of consciousness,Confusion,Neurologist
+Memory loss,Balance issues,Tremors,Difficulty speaking,Neurologist
+Memory loss,Difficulty speaking,Tremors,Balance issues,Neurologist
+Confusion,Weakness in limbs,Seizures,Loss of consciousness,Neurologist
+Balance issues,Tremors,Difficulty speaking,Memory loss,Neurologist
+Dizziness,Vision problems,Numbness,Severe headache,Neurologist
+Dizziness,Severe headache,Vision problems,Numbness,Neurologist
+Difficulty speaking,Memory loss,Balance issues,Tremors,Neurologist
+Balance issues,Tremors,Difficulty speaking,Memory loss,Neurologist
+Joint pain,Stiffness,Swelling,Difficulty walking,Orthopedic
+Joint pain,Stiffness,Swelling,Difficulty walking,Orthopedic
+Stiffness,Joint pain,Swelling,Difficulty walking,Orthopedic
+Back pain,Spine pain,Muscle weakness,Limited movement,Orthopedic
+Bone fracture,Bruising,Pain,Swelling,Orthopedic
+Limited movement,Back pain,Muscle weakness,Spine pain,Orthopedic
+Swelling,Pain,Bone fracture,Bruising,Orthopedic
+Muscle weakness,Limited movement,Back pain,Spine pain,Orthopedic
+Joint pain,Difficulty walking,Stiffness,Swelling,Orthopedic
+Joint pain,Difficulty walking,Swelling,Stiffness,Orthopedic
+Muscle weakness,Spine pain,Limited movement,Back pain,Orthopedic
+Back pain,Limited movement,Muscle weakness,Spine pain,Orthopedic
+Bruising,Bone fracture,Swelling,Pain,Orthopedic
+Bone fracture,Bruising,Swelling,Pain,Orthopedic
+Bone fracture,Pain,Bruising,Swelling,Orthopedic
+Bruising,Pain,Swelling,Bone fracture,Orthopedic
+Limited movement,Spine pain,Back pain,Muscle weakness,Orthopedic
+Spine pain,Limited movement,Back pain,Muscle weakness,Orthopedic
+Bruising,Swelling,Pain,Bone fracture,Orthopedic
+Muscle weakness,Spine pain,Limited movement,Back pain,Orthopedic
+Muscle weakness,Back pain,Limited movement,Spine pain,Orthopedic
+Bruising,Pain,Bone fracture,Swelling,Orthopedic
+Stiffness,Swelling,Joint pain,Difficulty walking,Orthopedic
+Swelling,Stiffness,Difficulty walking,Joint pain,Orthopedic
+Swelling,Bruising,Pain,Bone fracture,Orthopedic
+Difficulty walking,Stiffness,Joint pain,Swelling,Orthopedic
+Bone fracture,Bruising,Swelling,Pain,Orthopedic
+Muscle weakness,Back pain,Spine pain,Limited movement,Orthopedic
+Pain,Bruising,Swelling,Bone fracture,Orthopedic
+Spine pain,Limited movement,Muscle weakness,Back pain,Orthopedic
+Swelling,Joint pain,Difficulty walking,Stiffness,Orthopedic
+Limited movement,Muscle weakness,Spine pain,Back pain,Orthopedic
+Swelling,Bone fracture,Bruising,Pain,Orthopedic
+Swelling,Pain,Bone fracture,Bruising,Orthopedic
+Bruising,Bone fracture,Swelling,Pain,Orthopedic
+Diarrhea,Nausea,Stomach pain,Vomiting,Gastroenterologist
+Indigestion,Acid reflux,Heartburn,Chest discomfort,Gastroenterologist
+Gas,Abdominal cramps,Constipation,Bloating,Gastroenterologist
+Heartburn,Chest discomfort,Indigestion,Acid reflux,Gastroenterologist
+Acid reflux,Chest discomfort,Heartburn,Indigestion,Gastroenterologist
+Diarrhea,Stomach pain,Vomiting,Nausea,Gastroenterologist
+Nausea,Stomach pain,Diarrhea,Vomiting,Gastroenterologist
+Gas,Bloating,Constipation,Abdominal cramps,Gastroenterologist
+Constipation,Gas,Abdominal cramps,Bloating,Gastroenterologist
+Constipation,Abdominal cramps,Gas,Bloating,Gastroenterologist
+Chest discomfort,Indigestion,Heartburn,Acid reflux,Gastroenterologist
+Bloating,Abdominal cramps,Gas,Constipation,Gastroenterologist
+Gas,Bloating,Abdominal cramps,Constipation,Gastroenterologist
+Stomach pain,Nausea,Vomiting,Diarrhea,Gastroenterologist
+Gas,Bloating,Constipation,Abdominal cramps,Gastroenterologist
+Abdominal cramps,Constipation,Gas,Bloating,Gastroenterologist
+Indigestion,Acid reflux,Heartburn,Chest discomfort,Gastroenterologist
+Indigestion,Chest discomfort,Heartburn,Acid reflux,Gastroenterologist
+Constipation,Gas,Bloating,Abdominal cramps,Gastroenterologist
+Indigestion,Heartburn,Chest discomfort,Acid reflux,Gastroenterologist
+Gas,Abdominal cramps,Bloating,Constipation,Gastroenterologist
+Bloating,Gas,Abdominal cramps,Constipation,Gastroenterologist
+Nausea,Stomach pain,Diarrhea,Vomiting,Gastroenterologist
+Stomach pain,Nausea,Vomiting,Diarrhea,Gastroenterologist
+Stomach pain,Nausea,Vomiting,Diarrhea,Gastroenterologist
+Indigestion,Heartburn,Chest discomfort,Acid reflux,Gastroenterologist
+Abdominal cramps,Gas,Bloating,Constipation,Gastroenterologist
+Constipation,Gas,Bloating,Abdominal cramps,Gastroenterologist
+Indigestion,Chest discomfort,Heartburn,Acid reflux,Gastroenterologist
+Indigestion,Chest discomfort,Heartburn,Acid reflux,Gastroenterologist
+Chest discomfort,Heartburn,Indigestion,Acid reflux,Gastroenterologist
+Indigestion,Acid reflux,Heartburn,Chest discomfort,Gastroenterologist
+Stomach pain,Nausea,Diarrhea,Vomiting,Gastroenterologist
+Constipation,Abdominal cramps,Gas,Bloating,Gastroenterologist
+Heartburn,Chest discomfort,Acid reflux,Indigestion,Gastroenterologist
+Wheezing,Shortness of breath,Cough,Chest tightness,Pulmonologist
+Wheezing,Shortness of breath,Chest tightness,Cough,Pulmonologist
+Asthma,Breathlessness,Night cough,Fatigue,Pulmonologist
+Shortness of breath,Cough,Wheezing,Chest tightness,Pulmonologist
+Phlegm,Difficulty breathing,Chronic cough,Chest pain,Pulmonologist
+Night cough,Fatigue,Breathlessness,Asthma,Pulmonologist
+Phlegm,Chest pain,Chronic cough,Difficulty breathing,Pulmonologist
+Breathlessness,Asthma,Night cough,Fatigue,Pulmonologist
+Phlegm,Chronic cough,Difficulty breathing,Chest pain,Pulmonologist
+Shortness of breath,Cough,Wheezing,Chest tightness,Pulmonologist
+Chest pain,Difficulty breathing,Phlegm,Chronic cough,Pulmonologist
+Chronic cough,Phlegm,Chest pain,Difficulty breathing,Pulmonologist
+Breathlessness,Night cough,Asthma,Fatigue,Pulmonologist
+Phlegm,Chest pain,Difficulty breathing,Chronic cough,Pulmonologist
+Phlegm,Difficulty breathing,Chronic cough,Chest pain,Pulmonologist
+Night cough,Fatigue,Asthma,Breathlessness,Pulmonologist
+Cough,Shortness of breath,Chest tightness,Wheezing,Pulmonologist
+Difficulty breathing,Chronic cough,Phlegm,Chest pain,Pulmonologist
+Wheezing,Shortness of breath,Chest tightness,Cough,Pulmonologist
+Chest pain,Difficulty breathing,Chronic cough,Phlegm,Pulmonologist
+Chest tightness,Cough,Shortness of breath,Wheezing,Pulmonologist
+Breathlessness,Asthma,Fatigue,Night cough,Pulmonologist
+Phlegm,Difficulty breathing,Chronic cough,Chest pain,Pulmonologist
+Asthma,Night cough,Fatigue,Breathlessness,Pulmonologist
+Fatigue,Night cough,Breathlessness,Asthma,Pulmonologist
+Night cough,Asthma,Fatigue,Breathlessness,Pulmonologist
+Shortness of breath,Wheezing,Chest tightness,Cough,Pulmonologist
+Breathlessness,Fatigue,Night cough,Asthma,Pulmonologist
+Shortness of breath,Cough,Wheezing,Chest tightness,Pulmonologist
+Breathlessness,Fatigue,Night cough,Asthma,Pulmonologist
+Asthma,Fatigue,Night cough,Breathlessness,Pulmonologist
+Chronic cough,Phlegm,Difficulty breathing,Chest pain,Pulmonologist
+Chest pain,Difficulty breathing,Phlegm,Chronic cough,Pulmonologist
+Phlegm,Difficulty breathing,Chronic cough,Chest pain,Pulmonologist
+Chest tightness,Shortness of breath,Wheezing,Cough,Pulmonologist

@@ -1,0 +1,63 @@
+
+{% extends "base/base.html" %}
+{% load static %}
+
+{% block title %}Contact{% endblock %}
+
+{% block content %}
+
+<div class="container my-5">
+
+  <!-- CONTACT US Title -->
+  <div class="text-center mb-5">
+    <h2 class="text-secondary">CONTACT <span class="text-dark fw-semibold">US</span></h2>
+  </div>
+
+  <!-- Contact Content -->
+  <div class="row align-items-center gy-4 mb-5 text-muted small">
+
+    <!-- Left Image -->
+    <div class="col-md-5 text-center">
+      <img src="{% static 'image/contact_image.png' %}" alt="Contact Us" class="img-fluid rounded shadow-sm contact">
+    </div>
+
+    <!-- Right Content -->
+    <div class="col-md-7 d-flex flex-column gap-3">
+
+      <p class="fw-semibold h6 text-dark mb-1">Our OFFICE</p>
+      <p>54709 Willms Station <br>
+         Suite 350, Washington, USA
+      </p>
+
+      <p>Tel: (415) 555‑0132 <br> Email: prescripto@gmail.com</p>
+
+      <p class="fw-semibold h6 text-dark mt-3 mb-1">Careers at PRESCRIPTO</p>
+      <p>Learn more about our teams and job openings.</p>
+
+      <button class="button">Explore Jobs</button>
+        
+      
+
+    </div>
+  </div>
+  
+</div>
+
+<style>
+    .contact{
+        height: 350px;
+    }
+    
+    .button{
+        width: 110px;
+        border-radius: 6px;
+        padding: 8px;
+        background-color: white;
+    }
+    .button:hover{
+        background-color: black;
+        color: white;
+    }
+</style>
+
+{% endblock %}

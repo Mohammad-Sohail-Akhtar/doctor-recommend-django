@@ -1,0 +1,61 @@
+{% load static %}
+<nav class="container navbar navbar-expand-md navbar-light border-bottom border-secondary py-3 mb-4">
+  <div class="container-fluid d-flex justify-content-between align-items-center">
+
+    <!-- Logo -->
+    <a href="/" class="navbar-brand">
+      <img src="{% static 'image/logo.svg' %}" alt="Logo" class="img-fluid" style="width: 180px; cursor: pointer;">
+    </a>
+
+    <!-- Navbar Links -->
+    <ul class="navbar-nav d-none d-md-flex gap-4 fw-medium">
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'home' %}">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'doctors-list' %}">All Doctors</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'about' %}">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'book' %}">Book Appointment</a>
+      </li>
+    </ul>
+    <!-- Right Section -->
+    <div class="d-flex align-items-center gap-3">
+      {% if user.is_authenticated %}
+     
+      <p class="d-flex mt-3 btn btn-primary rounded-pill px-4 py-2 d-none d-md-block">{{ request.user.username }}</p>
+          <div class="dropdown">
+            
+        <a class="d-flex align-items-center text-decoration-none dropdown-toggle" href="#" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+          <!-- <img src="profile_pic.png" alt="Profile" class="rounded-circle" width="35"> -->
+           <!-- <a href="#">Profile</a> -->
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="userDropdown">
+          <li><a class="dropdown-item" href="{% url 'appointments' %}">My Appointments</a></li>
+          <li><form method="POST" action="{% url 'logout' %}" class="d-inline">
+                {% csrf_token %}
+                <button type="submit" class="dropdown-item text-danger">Logout</button>
+              </form></li>
+        </ul>
+      </div> 
+      {% else %}
+         <a href="{% url 'register' %}" class="btn btn-primary rounded-pill px-4 py-2 d-none d-md-block">Create Account</a>
+      {% endif %}
+    </div>
+  </div>
+</nav>
+
+
+<main class="container my-5">
+    {% block content %}
+       
+    {% endblock %}
+</main>
+
+

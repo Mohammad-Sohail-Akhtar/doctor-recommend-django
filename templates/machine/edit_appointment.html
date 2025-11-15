@@ -1,0 +1,37 @@
+{% extends "base/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-5">
+  <h2 class="mb-4 text-center">✏️ Edit Appointment</h2>
+
+  <form method="POST" class="card p-4 shadow-sm">
+    {% csrf_token %}
+
+    <div class="mb-3">
+      <label class="form-label">Doctor</label>
+      <select name="doctor" class="form-select">
+        {% for doc in doctors %}
+          <option value="{{ doc.id }}" {% if doc.id == appointment.doctor.id %}selected{% endif %}>
+            {{ doc.name }} ({{ doc.speciality.name }})
+          </option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Date</label>
+      <input type="date" name="appointment_date" value="{{ appointment.appointment_date|date:'Y-m-d' }}" class="form-control">
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Time</label>
+      <input type="time" name="appointment_time" value="{{ appointment.appointment_time|time:'H:i' }}" class="form-control">
+    </div>
+
+    <button type="submit" class="btn btn-success">💾 Save Changes</button>
+    <br>
+    <a href="{% url 'appointments' %}" class="btn btn-secondary">Cancel</a>
+  </form>
+</div>
+{% endblock %}
